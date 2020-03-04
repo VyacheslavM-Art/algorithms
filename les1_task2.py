@@ -12,7 +12,7 @@ elif y1 == y2:
 elif x1 == x2:
     print("x =", x1)
 else:
-    k = (y1 - y1) / (x2 - x1)
+    k = (y1 - y2) / (x1 - x2)
     b = y1 - k * x1
     if b > 0:
         print("y = {}x + {}".format("%.2f" % (k), "%.2f" % (b)))
